@@ -37,4 +37,4 @@ This Python 3.10 script required to import the followings, besure to pip them:
 -pyserial
 
 Some "how to use" things will guide through in screenshot i've uploaded.
-How these script helps many modbus related industries.
+Hope these script helps many modbus related industries.
