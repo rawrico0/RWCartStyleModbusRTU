@@ -23,14 +23,17 @@ and use this python sctipt to do the read and write job.
 
 Requirement to run this Python Script
 ===================
--Your own Modbus RTU parameter code. All devices doesn't use the same parameters, you need to find it by your own.
+-Your own Modbus RTU parameter code. All devices doesn't use the same parameters, you need to find it by your own. 
+I've uploaded 2 Excel files as example.
+
 -Any USB to RS485 dongle should do, in case you can't read anything, please connect a 120ohm resistor at + and - terminal, and try again.
-This Python 3.10 script required to import the followings
+USB Dongle i've tried... A Black USB dongle with 2 little + - terminal on it; Aten USB to RS232 dongle with a RS232-to-RS485 converter.
+
+This Python 3.10 script required to import the followings, besure to pip them:
 -tkinter
 -openpyxl
 -pandas
 -minimalmodbus
 -pyserial
--time
 
-Some "how to use" things will guide through in screenshot i've uploaded
+Some "how to use" things will guide through in screenshot i've uploaded.
